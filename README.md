@@ -125,7 +125,7 @@ result_analyst_agent      → 结果分析智能体
 <img width="1845" height="851" alt="image" src="https://github.com/user-attachments/assets/f6176d58-6bec-4ba4-b902-13e8f0a9c541" />
 
 
-autogen启动需要等待一会，（一定要提前打开ollama并确定本地模型已拉取并且和网站左侧填写的模型是一样的如果本地不是和我的qwen2.5:3b-instruct-q4_0模型一样的话也可以使用自己已有的模型把自己的模型填写到系统前端的左侧栏中）
+autogen启动需要等待一会，（一定要提前打开ollama并确定本地模型已拉取，并且和网站左侧填写的模型是一样的，如果本地不是和我的qwen2.5:3b-instruct-q4_0模型一样的话，也可以使用自己已有的模型，把自己的模型填写到系统前端的左侧栏中）
 
 <img width="1400" height="750" alt="image" src="https://github.com/user-attachments/assets/ef888b64-8229-4ed4-9ef7-ec604a261433" />
 
