@@ -16,7 +16,7 @@
 
 ## 2. 一键协作流程
 
-用户只需输入研究任务、选择数据来源和算法，然后点击：
+用户只需在系统左侧输入研究任务、选择数据来源和算法，然后点击：
 
 ```text
 🚀 启动多智能体协作流程
@@ -74,7 +74,7 @@ conda create -n autogenstudio python=3.11 –y
 conda activate autogenstudio
 ```
 
-### 5.2 安装依赖
+### 5.2 在命令行界面进入项目目录下安装依赖
 
 ```bash
 python -m pip install --upgrade pip
