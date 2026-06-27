@@ -60,7 +60,7 @@ Step 7 报告导出（可选）
 本项目默认使用 Ollama 的 OpenAI-compatible 接口：
 
 ```text
-模型：qwen2.5:3b
+模型：qwen2.5:3b-instruct-q4_0
 base_url：http://localhost:11434/v1
 api_key：ollama
 ```
@@ -84,7 +84,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ### 5.3 启动 Ollama 与模型
 
 ```bash
-ollama pull qwen2.5:3b
+ollama pull qwen2.5:3b-instruct-q4_0
 ollama serve
 ```
 
@@ -123,8 +123,59 @@ result_analyst_agent      → 结果分析智能体
 ## 7. 系统界面展示
 ### 7.1 一键启动系统
 <img width="1845" height="851" alt="image" src="https://github.com/user-attachments/assets/f6176d58-6bec-4ba4-b902-13e8f0a9c541" />
-autogen启动需要等待一会
+
+
+autogen启动需要等待一会，（一定要提前打开ollama并确定本地模型已拉取并且和网站左侧填写的模型是一样的如果本地不是和我的qwen2.5:3b-instruct-q4_0模型一样的话也可以使用自己已有的模型把自己的模型填写到系统前端的左侧栏中）
+
 <img width="1400" height="750" alt="image" src="https://github.com/user-attachments/assets/ef888b64-8229-4ed4-9ef7-ec604a261433" />
+
+
+成功运行后界面是这样子的：
+<img width="1260" height="729" alt="image" src="https://github.com/user-attachments/assets/bf2e6c91-9fa7-4bb7-885e-30427412b781" />
+
+### 7.2 点击查看流程的全部产物
+
+<img width="1366" height="784" alt="image" src="https://github.com/user-attachments/assets/855e5062-1391-403c-bdbd-e1b1b1c74a66" />
+
+
+对于每一个agent都有的说明记录：
+
+<img width="1365" height="733" alt="image" src="https://github.com/user-attachments/assets/a7c54753-ad1f-41ae-aa37-a7bf8dde5984" />
+
+### 7.3 点击查看文献库
+
+agent自己拉取的文献：
+<img width="1403" height="694" alt="image" src="https://github.com/user-attachments/assets/2acf16eb-66e0-4fae-9725-afd52da76b05" />
+
+### 7.4 点击查看实验结果，也就是图片处理效果
+说明了处理的是哪里的图片和处理效果一览
+<img width="1401" height="718" alt="image" src="https://github.com/user-attachments/assets/2032aeb7-324d-4223-acc1-c3b858ecf57b" />
+
+### 7.5 点击查看指标分析
+选出了最佳方法，最佳 F1@k，评价容差 ，并计算出了方法平均指标
+<img width="1398" height="719" alt="image" src="https://github.com/user-attachments/assets/0cda23c8-3245-4e4c-b690-d3ae758b2c6a" />
+
+图标展示更直观：
+<img width="1400" height="701" alt="image" src="https://github.com/user-attachments/assets/60e708be-1df1-42e8-b6e1-552068bd3d47" />
+
+单个图像的指标明细也用表直观列出：
+<img width="1395" height="611" alt="image" src="https://github.com/user-attachments/assets/1d497184-44c3-48d3-b140-338d8a803aa8" />
+
+最后分析和解释实验现象：
+<img width="1423" height="784" alt="image" src="https://github.com/user-attachments/assets/702b07c6-ceca-412a-b459-75cdd29f3cda" />
+
+### 7.6 点击查看指标分析
+
+可以下载全流程的实验报告也可在网站在线查看
+<img width="1415" height="720" alt="image" src="https://github.com/user-attachments/assets/d33d2835-8a1c-4ab7-89cc-611ce3a7ff27" />
+
+
+
+
+
+
+
+
 
 
 
