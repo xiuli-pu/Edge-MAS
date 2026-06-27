@@ -97,9 +97,10 @@ ollama serve
 streamlit run app.py
 ```
 会自动到前端系统界面
-浏览器访问：
+
 
 ```text
+也可以在浏览器访问：
 http://localhost:8501
 ```
 
