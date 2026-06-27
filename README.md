@@ -119,3 +119,12 @@ result_analyst_agent      → 结果分析智能体
 ```
 
 前端和报告中仍显示中文智能体名称。
+
+## 7. 系统界面展示
+### 7.1 一键启动系统
+<img width="1845" height="851" alt="image" src="https://github.com/user-attachments/assets/f6176d58-6bec-4ba4-b902-13e8f0a9c541" />
+autogen启动需要等待一会
+<img width="1400" height="750" alt="image" src="https://github.com/user-attachments/assets/ef888b64-8229-4ed4-9ef7-ec604a261433" />
+
+
+
