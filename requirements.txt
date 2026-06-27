@@ -1,0 +1,11 @@
+streamlit>=1.32
+numpy>=1.24
+pandas>=2.0
+opencv-python>=4.8
+Pillow>=10.0
+scikit-image>=0.21
+matplotlib>=3.7
+scipy>=1.10
+pypdf>=4.0
+autogen-agentchat>=0.4.0
+autogen-ext[openai]>=0.4.0

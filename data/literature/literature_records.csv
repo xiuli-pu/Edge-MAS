@@ -1,0 +1,7 @@
+﻿topic,title,authors,year,source,note,keywords
+Canny,A Computational Approach to Edge Detection,John Canny,1986,IEEE Transactions on Pattern Analysis and Machine Intelligence,经典 Canny 边缘检测框架，包括平滑、梯度、非极大值抑制和双阈值连接思想。,Canny; edge detection; non-maximum suppression; hysteresis
+Sobel / Prewitt,Gradient-based edge operators,Sobel; Prewitt and related early operators,1960s-1970s,Classical image processing literature,一阶梯度边缘检测思想，计算简单，常作为传统边缘检测基线。,Sobel; Prewitt; gradient; first-order derivative
+LoG,Theory of Edge Detection,David Marr; Ellen Hildreth,1980,Proceedings of the Royal Society B,基于高斯平滑和二阶导数零交叉的边缘检测思想，是 LoG 方法的重要理论来源。,LoG; zero crossing; Laplacian of Gaussian; Marr-Hildreth
+Morphological Gradient,Morphological image analysis foundations,Jean Serra; related mathematical morphology researchers,1980s,Mathematical morphology literature,形态学梯度利用膨胀与腐蚀差分提取结构边界，适合展示非微分型边缘检测思想。,mathematical morphology; dilation; erosion; morphological gradient
+Deep Learning Edge Detection,Holistically-Nested Edge Detection,Saining Xie; Zhuowen Tu,2015,IEEE International Conference on Computer Vision,深度学习边缘检测代表性工作之一，用于说明边缘检测从手工算子到学习型方法的发展。,HED; deep learning; edge detection; CNN
+Evaluation,Boundary detection evaluation with tolerance,Berkeley segmentation benchmark and related evaluation studies,2000s,Image segmentation and boundary detection evaluation literature,边缘位置可能存在轻微偏移，因此常采用带容差的 Precision、Recall 和 F-measure。,Precision; Recall; F-measure; boundary matching; tolerance

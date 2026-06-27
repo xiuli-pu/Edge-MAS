@@ -1,0 +1,14 @@
+{
+  "tolerance": 2,
+  "sigma": 1.2,
+  "canny_low": 60,
+  "canny_high": 160,
+  "log_sigma": 1.2,
+  "morph_kernel": 3,
+  "selected_algorithms": [
+    "Sobel",
+    "Prewitt",
+    "LoG",
+    "Canny"
+  ]
+}

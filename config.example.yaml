@@ -1,0 +1,13 @@
+app:
+  name: Edge-MAS One-Click Collaboration
+  mode: local
+llm:
+  provider: ollama
+  model: qwen2.5:7b
+  base_url: http://localhost:11434/v1
+  api_key: ollama
+experiment:
+  tolerance: 2
+  sigma: 1.2
+  canny_low: 60
+  canny_high: 160

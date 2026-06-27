@@ -1,0 +1,4 @@
+﻿image,image_name,mask,mask_name,has_mask
+D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\images\demo_crack_01.png,demo_crack_01.png,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\masks\demo_crack_01.png,demo_crack_01.png,True
+D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\images\demo_crack_02.png,demo_crack_02.png,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\masks\demo_crack_02.png,demo_crack_02.png,True
+D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\images\demo_crack_03.png,demo_crack_03.png,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\source_data\masks\demo_crack_03.png,demo_crack_03.png,True

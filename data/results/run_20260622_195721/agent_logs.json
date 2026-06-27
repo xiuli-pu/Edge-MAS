@@ -1,0 +1,109 @@
+[
+  {
+    "step": 0,
+    "agent": "总控规划智能体",
+    "title": "AutoGen 总控规划",
+    "status": "完成",
+    "input": "用户研究任务、数据来源、算法选择、实验参数、AutoGen 模型配置",
+    "output": "autogen_conversation.json、autogen_conversation.md、六阶段多智能体协作计划",
+    "message": "AutoGen 已成功启动总控规划智能体和六个专业智能体，完成协作任务分解；系统随后按照 AutoGen 协作计划进入工具执行阶段。",
+    "artifacts": {
+      "run_dir": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721",
+      "autogen_conversation.json": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\autogen_conversation.json",
+      "autogen_conversation.md": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\autogen_conversation.md"
+    }
+  },
+  {
+    "step": 1,
+    "agent": "文献调研智能体",
+    "title": "Step 1 文献调研",
+    "status": "完成",
+    "input": "研究任务、算法关键词、边缘检测主题词",
+    "output": "literature_records.csv、literature_records.jsonl、literature_summary.md",
+    "message": "文献调研智能体已保存边缘检测种子文献，并生成文献调研摘要，供算法设计智能体参考。",
+    "artifacts": {
+      "literature_records.csv": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\literature\\literature_records.csv",
+      "literature_summary.md": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\literature\\literature_summary.md"
+    }
+  },
+  {
+    "step": 2,
+    "agent": "数据管理智能体",
+    "title": "Step 2 数据管理",
+    "status": "完成",
+    "input": "原始图像、mask 图、数据来源设置",
+    "output": "processed_images/、gt/、file_pairs.csv",
+    "message": "数据管理智能体已完成 3 张图像的灰度化和文件配对；生成 3 个 edge GT。",
+    "artifacts": {
+      "file_pairs.csv": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\file_pairs.csv",
+      "processed_images": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\processed_images",
+      "gt": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\gt"
+    }
+  },
+  {
+    "step": 3,
+    "agent": "算法设计智能体",
+    "title": "Step 3 算法设计",
+    "status": "完成",
+    "input": "研究任务、文献调研摘要、数据情况、用户选择算法",
+    "output": "algorithm_plan.json、algorithm_plan.md",
+    "message": "算法设计智能体已生成公开边缘检测算法对比方案，并明确公平对比原则。",
+    "artifacts": {
+      "algorithm_plan.json": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\algorithm_plan.json",
+      "algorithm_plan.md": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\algorithm_plan.md"
+    }
+  },
+  {
+    "step": 4,
+    "agent": "实验执行智能体",
+    "title": "Step 4 实验执行",
+    "status": "完成",
+    "input": "algorithm_plan.json、processed_images/、实验参数",
+    "output": "edges/、experiment_config.json、run_log.csv",
+    "message": "实验执行智能体已运行 4 种算法，生成 12 张边缘检测结果图。",
+    "artifacts": {
+      "edges": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\edges",
+      "experiment_config.json": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\experiment_config.json",
+      "run_log.csv": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\run_log.csv"
+    }
+  },
+  {
+    "step": 5,
+    "agent": "指标评价智能体",
+    "title": "Step 5 指标评价",
+    "status": "完成",
+    "input": "edges/、gt/、评价容差 k",
+    "output": "metrics.csv、metrics_summary.csv",
+    "message": "指标评价智能体已计算 Precision@k、Recall@k、F1@k 与 IoU。",
+    "artifacts": {
+      "metrics.csv": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\metrics.csv",
+      "metrics_summary.csv": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\metrics_summary.csv"
+    }
+  },
+  {
+    "step": 6,
+    "agent": "结果分析智能体",
+    "title": "Step 6 结果分析",
+    "status": "完成",
+    "input": "metrics.csv、metrics_summary.csv、edges/、algorithm_plan.md",
+    "output": "analysis_report.md、agent_analysis.json",
+    "message": "结果分析智能体已结合指标和方法特点生成实验现象解释。",
+    "artifacts": {
+      "analysis_report.md": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\analysis_report.md",
+      "agent_analysis.json": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\agent_analysis.json"
+    }
+  },
+  {
+    "step": 7,
+    "agent": "报告导出模块",
+    "title": "Step 7 报告导出",
+    "status": "完成",
+    "input": "前六个智能体全部阶段产物",
+    "output": "research_report.md、experiment_package.zip",
+    "message": "已整合文献、数据、算法、实验、指标、分析和协作日志，生成最终报告与实验压缩包。",
+    "artifacts": {
+      "research_report.md": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\research_report.md",
+      "experiment_package.zip": "D:\\xiaodingdang\\Users\\Desktop\\edge_autogen\\data\\results\\run_20260622_195721\\experiment_package.zip"
+    }
+  }
+]

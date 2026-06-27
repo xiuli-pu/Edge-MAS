@@ -1,0 +1,13 @@
+﻿image,method,edge_path
+demo_crack_01_gray.png,Sobel,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Sobel\demo_crack_01_gray_Sobel.png
+demo_crack_01_gray.png,Prewitt,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Prewitt\demo_crack_01_gray_Prewitt.png
+demo_crack_01_gray.png,LoG,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\LoG\demo_crack_01_gray_LoG.png
+demo_crack_01_gray.png,Canny,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Canny\demo_crack_01_gray_Canny.png
+demo_crack_02_gray.png,Sobel,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Sobel\demo_crack_02_gray_Sobel.png
+demo_crack_02_gray.png,Prewitt,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Prewitt\demo_crack_02_gray_Prewitt.png
+demo_crack_02_gray.png,LoG,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\LoG\demo_crack_02_gray_LoG.png
+demo_crack_02_gray.png,Canny,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Canny\demo_crack_02_gray_Canny.png
+demo_crack_03_gray.png,Sobel,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Sobel\demo_crack_03_gray_Sobel.png
+demo_crack_03_gray.png,Prewitt,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Prewitt\demo_crack_03_gray_Prewitt.png
+demo_crack_03_gray.png,LoG,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\LoG\demo_crack_03_gray_LoG.png
+demo_crack_03_gray.png,Canny,D:\xiaodingdang\Users\Desktop\edge_autogen\data\results\run_20260622_195721\edges\Canny\demo_crack_03_gray_Canny.png
